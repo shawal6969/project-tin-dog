@@ -2,3 +2,96 @@ body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+/* style of our banner */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: #ff4c68;
+    color: #fff;
+    position: relative;
+}
+.banner-container{
+    display: flex;
+    flex-direction: row;
+}
+.banner-content{
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.banner-img{
+    margin-left: 100px;
+    transform: rotate(30deg);
+    margin-top: 30px;
+    height: 600px;
+}
+.features-section{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+}
+.icon{
+    padding: 0px 10px;
+}
+.features-container{
+    display: flex;
+    flex-direction: row;
+}
+.features{
+    margin-top: 150px;
+    text-align: center; 
+    width: 400px;   
+}
+.features-icon{
+    color: #ff4c68;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.features-h4{
+    padding-bottom: 30px;
+}
+.features-parag{
+    padding: 0 10px;
+}
+.caro-bg{
+    position: relative;
+    background-color: #ef8172;
+    width: 100%;
+    top: 600px;
+}
+.caro-img{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.caro-parag{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+.caro-name{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    left: 730px;
+    bottom: 70px;
+}
+.partner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.part-img{
+    width: 15%;
+    margin: 0 20px;
+    padding-bottom: 80px;
+}
